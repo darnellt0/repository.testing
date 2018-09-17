@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.testing" name="My Test Repo" version="0.0.1" provider-name="Me">
+	<extension point="xbmc.addon.repository" name="My Test Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/darnellt0/repository.testing/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/darnellt0/repository.testing/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/darnellt0/repository.testing/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Summary</summary>
+		<description lang="en">Full Description</description>
+		<genre>adult,livetv,movies,usa</genre>
+	</extension>
+</addon>
